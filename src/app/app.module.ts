@@ -5,9 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { MelonHeaderComponent } from './melon-header/melon-header.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MelonHeaderComponent
   ],
   imports: [
     BrowserModule,
